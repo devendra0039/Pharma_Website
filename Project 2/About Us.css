@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+	margin: 0%;
+	padding: 0%;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+nav{
+
+	display: flex;
+	background-color: #f3efe5;
+}
+
+
+.logo{
+	padding-left: 20px;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img{
+	height: 100px;
+	width: 300px;
+	max-width: 100%;
+}
+
+.nav-list{
+	margin: 0%;
+	padding: 0%;
+	width: 70%;	
+    align-items: center;
+    display:flex;
+	font-family: 'Poppins', sans-serif;
+}
+
+.nav-list li{
+       list-style: none;
+	   padding: 26px 30px;
+	   font-family: 'Poppins', sans-serif;
+
+}
+
+.nav-list li a{
+	    padding-top: 50px;
+        text-decoration: none;
+		color: #070707;
+		font-family: 'Poppins', sans-serif;
+
+}
+
+
+.rightn{
+    text-align: right;
+	width: 30%;
+	background-color:#f3efe5;
+	font-family: 'Poppins', sans-serif;
+
+
+}
+
+#lin{
+	display: flex;
+	padding-top: 20px;
+	
+	padding-left: 50px;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.nav-list li a:hover{
+	color: rgb(7, 190, 41);
+	border-bottom: 3px solid rgb(9, 243, 80);
+
+}
+
+.nav-list li a:active{
+	color: rgb(190, 7, 7);
+	border-bottom: 3px solid rgb(190, 7, 7);
+
+}
+
+
+.rightn {
+	float: right;
+  }
+  
+  .rightn input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	font-family: 'Poppins', sans-serif;
+	border: none;
+  }
+  .rightn button {
+	float: right;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+  }
+  
+  .rightn button:hover {
+	background: #ccc;
+  }
+
+
+
+
+
+.h1{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding:0%;
+	margin: 0%;
+	padding: 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-shadow: 3px 3px #535856;
+	font-size: 40px;
+	color:rgb(244, 244, 247);
+	max-width: 100%;
+	background-color: rgb(21, 156, 46);
+	height: 42px;
+}
+
+.h1:hover{
+	font-size: 42px ;
+}
+
+.h2{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#name{
+	margin-top: 15%;
+	margin-bottom: 2%;
+	padding:0px 200px;
+	text-align: center;
+	font-weight: bold;
+	font-style:initial;
+	font-size: 100px;
+	background: -webkit-linear-gradient(rgb(127, 243, 12), rgb(9, 146, 236));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+	
+}
+
+
+#f{
+	text-align: center;
+	text-shadow:  2px 1px #535856;
+	font-size: 45px;
+	margin-top: 0px;
+	font-family:serif;
+}
+.s{
+	display:block;
+	margin: 0px;
+	padding: 0px;
+	animation: moving;
+	animation-duration: 2s;
+	position: relative;
+}
+
+@keyframes moving{
+	0%{
+		left: 0px; top:80px; opacity: 0%;
+	}
+
+	50%{
+		left: 50px; top:0px; opacity: 50%;
+	}
+
+	100%{
+		left: 0px; top:0px;
+	}
+}
+
+.as{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px;
+	margin: 0px;
+	max-width: 100%;
+	animation: rmoving;
+	animation-duration: 2s;
+	position: relative;
+}
+
+@keyframes rmoving{
+	0%{
+		right: 0px; top:80px; opacity: 0%;
+	}
+
+	50%{
+		right: 50px; top:0px; opacity: 50%;
+	}
+
+	100%{
+		right: 0px; top:0px;
+	}
+}
+
+#detail{
+    margin-top: 5%;
+	font-size: 120%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 0%;
+	max-width: 870px;
+	line-height: 2.5;
+}
+
+#title{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 70px;;
+	margin: 0%;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-shadow: 2px 2px #535856;
+	font-size: 40px;
+	color:rgb(10, 10, 10);
+	max-width: 100%;
+	height: 80px;
+
+}
+
+#title:hover{
+	font-size: 45px;
+}
+
+#underline{
+	border-bottom: 4px solid rgb(15, 223, 15);
+	padding-bottom: 15px;
+}
+
+.h3{
+	background-color: rgb(226, 222, 222);
+}
+
+.team{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0%;
+	justify-content: center;
+	gap: 40px;
+}
+
+#t1{
+	background-color: #ffffff;
+	width: 250px ;
+	height: 340px;
+	border-top-left-radius: 21px;
+	border-top-right-radius: 21px;
+	border-bottom-left-radius: 21px;
+	border-bottom-right-radius: 21px;
+	display: grid;
+	justify-content: center;
+	
+}
+
+
+
+#t1 img{
+	width: 250px ;
+	height: 250px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#t1 img:hover{ 
+	width: 260px; 
+	height: 260px;
+
+}
+
+#na{
+	display: grid;
+	font-size: 100%;
+	padding-top: 3%;
+	justify-content: center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+
+#capt{
+	display: grid;
+	justify-content: center;
+	color: rgb(197, 201, 199);
+}
+
+.footer{
+	background-color: #050505;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+@media only screen and (max-width:1140px) {
+	.nav-list{
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	nav{
+		flex-direction: column;
+	}
+
+	.rightn{
+		text-align: center;
+		width:100%;
+		padding-bottom: 20px;
+	
+	}
+
+	#lin{
+		flex-direction: column;
+	}
+    #search{
+		margin-left: 35%;
+		margin-right:25%;
+	}
+
+	.btns{
+      margin: 20px;
+	  margin-left: 10%;
+
+	}
+
+	.h3{
+		height: auto;
+	}
+}
+footer{
+	margin: 0%;
+	padding: 0%;
+	display: flex;
+}
+
+table{
+	background-color: black;
+	width: 100%;
+	padding:10px;
+
+}
+
+.flogo img{
+height: 80px;
+width: 200px;
+}
+
+#cn{
+
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color:rgb(204, 204, 209);
+}
+
+.con{
+
+color: rgb(161, 156, 156);
+
+}
+.con:hover{
+	color: white;
+}
+
+#ci{
+color: rgb(250, 245, 245);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 150%;
+}
+#add{
+display: grid;
+gap: 15px;
+
+}
+
+.ql{
+
+color: rgb(148, 147, 147);
+}
+
+.ql:hover{
+	color: white;
+}
+
+
+#qln{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+color:rgb(244, 244, 247);
+}
+.fql li{
+list-style: none;
+}
+.fql li::before{
+content: "\00BB";
+}
+.fql li a{
+text-decoration: none;
+color: rgb(148, 147, 147);
+}
+.fql li a:hover{
+	color: white;
+}
+
+
+.copy{
+	width: 100%;
+}
+#sml{
+	color: white;
+	
+}
+#sml i{
+	padding-left: 9px;
+	padding-right: 9px;
+}
+#sml i:hover{
+	color: rgb(15, 255, 55);
+}
+
+.ali{
+	display:flex;
+}
+#cr{
+	width: 90%;
+}
+@media only screen and (max-width:756px)
+{
+table{ 
+width: 100%;
+}
+
+.flogo img{
+height: 30px;
+width: 50px;
+}
+
+
+#ci{
+font-size: 6px;
+}
+
+#cn{
+font-size: 8px;
+}
+
+#add{
+font-size: 7px;
+gap:5px;
+
+}
+
+
+#qln{
+font-size: 8px;
+text-align: center;
+
+}
+
+.fql{
+font-size: 7px;
+}
+#cr{
+	width: 70%;
+}
+}
+

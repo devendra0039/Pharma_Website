@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  padding: 0%;
+  margin: 0%;
+  
+}
+div img{
+    height: 400px;
+    width: 100%;
+}
+
+/* Caption text */
+
+
+/* The dots/bullets/indicators */
+.dot {
+  
+  transition: background-color 1.6s ease;
+}
+
+.mySlides fade img{
+  width: 100%;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5 s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+
+
+#welcome{
+font-size: 120%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+max-width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin-right: 0%;
+line-height: 2.5;
+margin-bottom: 4%;
+padding: 3%;
+}
+.rightn{
+	margin-top: 30px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.rightn input{
+	
+	
+	border:0px solid gray;
+	border-radius:0px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#tit{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 70px;;
+	margin: 0%;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-shadow: 2px 2px #535856;
+	font-size: 40px;
+	color:rgb(10, 10, 10);
+	max-width: 100%;
+	height: 80px;
+
+}
+
+#titl{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 70px;;
+	margin: 0%;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-shadow: 2px 2px #535856;
+	font-size: 40px;
+	color:rgb(10, 10, 10);
+	max-width: 100%;
+	height: 80px;
+
+}
+@media only screen and (max-width:483px){
+
+  #tit{
+    font-size: 25px;
+    flex-wrap: nowrap;
+    padding-bottom: 0.5%;
+  }
+
+  #titl{
+    font-size: 25px;
+    flex-wrap: nowrap;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    padding: 0px;
+  }
+
+}
+
+.h6{
+	background-color: rgb(245, 244, 244);
+
+}
+
+.tem{
+  display: flex;
+	flex-wrap: wrap;
+  flex-direction: row;
+	padding: 0%;
+	justify-content: center;
+	gap: 40px;
+}
+#na1{
+	display: grid;
+	font-size: 65%;
+	padding-top: 3%;
+	justify-content: center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	
+}
