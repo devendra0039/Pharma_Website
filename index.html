@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>sri maruti pharma website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="About Us.css">
+  <script src="https://kit.fontawesome.com/89cdae8dc1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+
+    <ul class="nav-list">
+      <div class="logo">
+        <img src="img\logo2.png">
+      </div>
+      <div id="lin">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </div>
+    </ul>
+
+    <div class="rightn">
+      <form>
+        <input type="text" name="search" placeholder="Search...">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+
+    </div>
+  </nav>
+
+  <!-- slider front page-->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="img\sli4.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="img\sli5.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="img\sli6.jpg" style="width:100%">
+
+    </div>
+
+
+
+
+    <div style="text-align:cente">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+  </div>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+  </script>
+  <section class="firstsection">
+    <div id="tit">
+      WE<span id="underline">LCO</span>ME
+    </div>
+
+    <p id="welcome">
+      <span> <span style="line-height: 1;"> <span style="font-size: 50px;font-family: cursive;">S</span>ri Maruthi is a
+          company,established under a mission of service to humanity, we provide a wide range
+          of pharmaceuticals and we are building a reputation of quality and integrity known around the world. The
+          products that we supply at  SMP Meets the best  safety and quality standards. We are being audited regularly
+          by  officials to ensure that  the highest safety and  quality criteria were met.
+
+
+        </span>
+    </p>
+
+    </div>
+    </div>
+  </section>
+  <div class="h6">
+    <div id="titl">
+      Se<span id="underline">rvic</span>es
+    </div>
+    <div class="tem">
+      <div id="t1">
+        <img src="img\01.jpg">
+        <b id="na1">Chemists</b>
+      </div>
+      <div id="t1">
+        <img src="img\img1.png">
+        <b id="na1"><A>Surgical Equipment Dealers</A></b>
+      </div>
+      <div id="t1">
+        <img src="img\img8.png">
+        <b id="na1">Pharmaceutical Product Distributors</b>
+      </div>
+      <div id="t1">
+        <img src="img\img3.png">
+        <b id="na1">Pharmaceutical Product Manufactures</b>
+      </div>
+      <div id="t1">
+        <img src="img\sli6.jpg">
+        <b id="na1">Medical Equipment Dealers</b>
+      </div>
+      <div id="t1">
+        <img src="img\sli5.jpg">
+        <b id="na1">Medicine Wholesalers</b>
+      </div>
+      <div id="t1">
+        <img src="img\img5png.jpg">
+        <b id="na1">Surgical Face Mask Dealers</b>
+      </div>
+      <div id="t1">
+        <img src="img\img6.png">
+        <b id="na1">N95 Face Mask Dealers</b>
+      </div>
+      <div id="t1">
+        <img src="img\img7.png">
+        <b id="na1">Genric Medicine Distributors</b>
+      </div>
+      <div id="t1">
+        <img src="img\img2.png">
+        <b id="na1">Pharmaceuticals Products Wholesalers and Much more</b>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <table>
+      <tr>
+        <td>
+          <div class="flogo">
+            <img src="img\logo2.png">
+            <p id="cn">&emsp; Sri Maruthi Pharma</p>
+          </div>
+        </td>
+        <td>&emsp; &emsp;</td>
+        </td>
+        <td>&emsp; &emsp;</td>
+        <td>
+          <div class="con">
+            <p id="ci">CONTACT</p>
+            <span id="add"> <span><i class="fas fa-map-marked-alt"></i> &emsp;No.65, 1st Floor, 1st Main,3rd Cross, Chamarajpet, Near Royan Circle
+                <br>
+                &emsp;&emsp;Bangalore-560018 </span>
+
+              <span><i class="fas fa-phone-alt"></i>&emsp;Phone: +91 6200-XXXX-XX</span>
+              <span><i class="far fa-envelope"></i> &ensp;&nbsp;Email: info@example.com</span> </span>
+
+          </div>
+        </td>
+        <td>
+          <div class="ql">
+
+            <p id="qln"> &emsp;Quick Link</p>
+
+            <ul class="fql">
+              <li><a href="index.html"> &emsp;Home</a></li>
+              <li><a href="About Us.html"> &emsp;About Us</a></li>
+              <li><a href="contactus.html"> &emsp;Contact Us</a></li>
+            </ul>
+
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <div class="copy">
+      <hr>
+      <div class="ali">
+        <div id="cr">
+
+          <font face="arial" color="white"> &emsp;&copy; 2021 Shri Maruthi Pharma,India |&ensp;All Right Reserved</font>
+
+        </div>
+        <div id="sml">
+          
+
+            <a href="https://wa.me/9999444455" target="_blank" lang="eng"><i class="fab fa-whatsapp fa-2x"></i></a> 
+            <a href="https://www.facebook.com/devendra0039"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+
+      </div>
+
+    </div>
+</body>
+
+</html>
